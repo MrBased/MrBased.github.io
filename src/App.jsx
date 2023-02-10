@@ -13,7 +13,7 @@ function App() {
         </h1>
         <h2 className='font-bold text-3xl items-center justify-center'>Engineering student @ UC | Chile</h2>
       </div>
-      <div className='animate-land text-xl text-justify mx-60'>
+      <div className='animate-land text-xl text-justify max-w-prose'>
         Hey gamers! I'm an enthusiastic programmer interested in computer science, web development, physics and astronomy. I love exploring new technologies and finding creative solutions to complex problems. I'm excited to be a part of the constantly evolving world of technology and look forward to continuing to learn and grow as a programmer and web developer.
       </div>
       <div>
@@ -22,8 +22,8 @@ function App() {
             Goals
           </h1>
         </div>
-        <div className='animate-land text-xl text-justify mx-60'>
-          <ul className='list-disc'>
+        <div className='animate-land text-xl text-justify'>
+          <ul className='list-disc max-w-prose'>
             <li>Learn Machine Learning</li>
             <li>Learn C++</li>
             <li>Learn Quantum computing</li>
@@ -36,7 +36,7 @@ function App() {
             Projects
           </h1>
         </div>
-        <div className='animate-land text-xl text-justify mx-60'>
+        <div className='animate-land text-xl text-justify max-w-prose'>
           (wip) 
         </div>
       </div>
