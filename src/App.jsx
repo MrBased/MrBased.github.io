@@ -5,7 +5,6 @@ function App() {
   return (
     <div className="App">
       <div className='flex justify-between'>
-        <img className='mx-auto h-40 animate-pulse rounded-full' src="https://avatars.githubusercontent.com/u/24458834?v=4" />
       </div>
       <div className='animate-land pb-10 pt-8'>
         <h1 className=" font-bold text-7xl font-mono">
