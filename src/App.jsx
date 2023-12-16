@@ -31,7 +31,8 @@ function App() {
             <ProjectCard
               title='Ubicate v2.0'
               src='https://avatars.githubusercontent.com/u/26145246'
-              desc='Interactive map for all UC campuses in Chile'>
+              desc='Interactive map for all UC campuses in Chile'
+              repo={'https://github.com/open-source-uc/UbiCate-v2'}>
             </ProjectCard>
 
             <ProjectCard

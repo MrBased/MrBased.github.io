@@ -1,7 +1,7 @@
 import React from 'react'
 import RepoBtn from './RepoBtn'
 
-export default function ProjectCard({ title, desc, src }) {
+export default function ProjectCard({ title, desc, src, repo }) {
   return (
     <div className='p-4'>
       <div className='cont flex flex-col container mx-auto border rounded-lg h-80 w-96 p-3 items-center'>
@@ -14,7 +14,7 @@ export default function ProjectCard({ title, desc, src }) {
         <div className='h-full'>
           <p className='text-lg'>{desc}</p>
         </div>
-        <RepoBtn></RepoBtn>
+        <RepoBtn _href={repo}></RepoBtn>
 
       </div>
     </div>
