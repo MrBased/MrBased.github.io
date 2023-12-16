@@ -25,3 +25,18 @@ body {
   min-width: 320px;
   min-height: 100vh;
 }
+
+@media screen and (max-width: 768px) {
+  body {
+    width: 100vw;
+  }
+  .App {
+    width: 18rem;
+    align-items: center;
+  }
+  .cont {
+    max-width: 80vw;
+    place-content: center;
+    justify-content: center;
+  }
+}
