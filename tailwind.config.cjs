@@ -14,11 +14,14 @@ module.exports = {
           '0%': {
             color: 'transparent',
             transform: 'translateY(50%)',
-            },
+          },
           '100%': {
-            
+
           },
         },
+      },
+      colors: {
+        'blu': '#0024e7'
       },
     },
   },
